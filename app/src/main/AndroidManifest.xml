@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReselApp">
         <activity
+            android:name=".SubirProductosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarProductosActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
